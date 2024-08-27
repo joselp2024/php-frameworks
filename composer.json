@@ -1,0 +1,19 @@
+{
+    "name": "joselopez/frameworks",
+    "description": "Proyecto básico de frameworks",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "JoséLópez"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
